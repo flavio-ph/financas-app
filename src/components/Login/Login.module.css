@@ -1,0 +1,89 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.loginbox {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+
+}
+.container form {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+}
+
+
+.loginbox h2 {
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+
+.loginbox label {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+}
+
+.loginbox input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+.loginbox .btnent {
+    background-color: aquamarine;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    
+}
+
+.loginbox .btn {
+    padding-top: 10px;
+}
+
+.loginbox .btncad {
+    background-color: rgb(233, 47, 47);
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.loginbox .btnent:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.loginbox .btncad:hover {
+    background-color: rgb(255, 0, 51);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
